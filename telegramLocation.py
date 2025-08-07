@@ -34,10 +34,10 @@ if not coordinates:
     exit(1)
 
 print(f"Preparing to send location to: {chat_id}")
-print(f"Coordinates: {latitude}, {longitude}")
+print(f"Coordinates: {longitude}, {latitude}")
 
 # This code will start your Telegram client session
-with Client("my_session", api_id=api_id, api_hash=api_hash) as app:
+with Client("/app/sessions/my_session", api_id=api_id, api_hash=api_hash) as app:
     # Send location
     app.send_location(
         chat_id=chat_id,

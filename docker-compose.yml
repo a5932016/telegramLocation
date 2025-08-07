@@ -9,5 +9,5 @@ services:
       - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
       - TELEGRAM_COORDINATES=${TELEGRAM_COORDINATES}
     volumes:
-      - ./sessions:/app/sessions
+      - telegram-location:/app/sessions
     restart: "no"
