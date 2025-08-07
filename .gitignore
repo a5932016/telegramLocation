@@ -1,0 +1,34 @@
+# Sensitive information files
+config.py
+credentials.json
+.env
+.env.docker
+
+# Pyrogram session files
+my_session*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+
+# Other files
+sessions/
